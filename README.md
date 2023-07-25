@@ -9,4 +9,4 @@ Dose is a simple html project to visualize step-by-step creation of *Huffman Tre
 3. Enter the number of entries and click `Generate` button to generate the explanation.
 
 <hr/>
-> Combined contribution of [Kirandeep-Singh](https://github.com/Kirandeep-Singh-Khehra) and [Harmandeep Singh](https://github.com/Harman717)
+Combined contribution of [Kirandeep-Singh](https://github.com/Kirandeep-Singh-Khehra) and [Harmandeep Singh](https://github.com/Harman717)
