@@ -1,0 +1,119 @@
+header{
+    background-color: coral;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+.navbar
+{
+    background-color: coral;
+    height: 60px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-color: white;   
+    border-radius: 5px;
+}
+.navbar__logo{
+    color: white;
+    text-decoration: none;
+    padding-left:  1rem;
+    font-size: 1.5rem;
+}
+.navbar__link{
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+p
+{
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    text-align: center;
+    font-size: 36; 
+    text-decoration: rgb(23, 176, 223);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+.left{
+    flex-basis: 50%;    
+}
+img{
+    width: 50%;
+    display: flex;  
+    align-items: left;
+    margin: auto;
+    border-style:hidden;
+    border-color: rgb(248, 246, 246);
+    background-color: rgb(246, 250, 251);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    cursor: hand;
+}
+.right{
+    flex-basis:50%;
+    max-width: 400px;
+}
+.right h1{
+    color:red;
+    font-size:24;
+}
+.right p {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.btn{
+    background:transparent;
+    padding: 10px 20px;
+    color: rgb(244, 252, 250);
+    border-radius: 500px;
+    font-weight: bold;
+    border-style:double;
+}
+.navbar__link:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+#optimal{
+    padding:100px;
+}
+.leftside{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lefts{
+    flex-basis: 50%;
+}
+.rightside{
+    flex-basis: 50%;
+}
+.lefts h2{
+    color:red;
+    font-size: 24;
+}
+.lefts p{
+    font-size: 20;
+}
+.btn2{
+    background:transparent;
+    padding: 10px 20px;
+    color: rgb(4, 4, 4);
+    border-radius: 500px;
+    font-weight: bold;
+    border-style:double;
+}
+.btn2:hover{
+    transform: scale(1.2);
+}

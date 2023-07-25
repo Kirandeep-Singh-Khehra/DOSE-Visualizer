@@ -1,0 +1,134 @@
+.navbar
+{
+    background-color:coral;
+    height: 60px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-color: white;   
+    border-radius: 5px;
+}
+.navbar__logo{
+    color: white;
+    text-decoration: none;
+    padding-left:  1rem;
+    font-size: 1.5rem;
+}
+.navbar__link{
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+span.node_view_L {
+    background-color: coral;
+    padding: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: monospace;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+span.node_view_I {
+    background-color: coral;
+    padding: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 100%;
+    border-style: solid;
+    margin: 10px;
+    color: white;
+}
+
+.node_label {
+    border-bottom-style: solid;
+}
+
+.node_list {
+    border-radius: 10px;
+    background-color: bisque;
+    width: fit-content;
+    margin: 10px;
+    box-shadow: 2px 2px 6px 1px;
+}
+table {
+    background: white;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 2px;
+    margin: 5px;
+    box-shadow: 2px 2px 6px 1px;
+}
+
+tr {
+    background: bisque;
+}
+
+th {
+    background: coral;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 4;
+}
+
+svg{
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 10px;
+    box-shadow: 2px 2px 6px 1px;
+}
+
+input {
+    border-style: solid;
+    font-size: 16px;
+    font-family: Century Gothic;
+    border-radius: 3px;
+    width: 45%;
+}
+
+input[type="button" i] {
+    font-size: 16px;
+    font-family: Century Gothic;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+    width: -webkit-fill-available;
+    background-color: coral;
+    border-style: solid;
+    padding: 5px;
+}
+
+.label {
+    font-size: 16px;
+    font-family: Century Gothic;
+    color: white;
+    border-radius: 3px;
+    border-width: medium;
+    border-color: gray;
+    border-style: solid;
+    margin: 1px;
+    width: 43%;
+    background-color: coral;
+    border-style: solid;
+    padding: 5px;
+    display: inline-block;
+}

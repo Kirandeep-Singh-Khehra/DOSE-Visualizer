@@ -1,0 +1,26 @@
+<html><head>
+    <script src="Dose.js"></script>
+    <link rel="stylesheet" href="DOSE_2.css">
+</head>
+<body style="font-family: Century Gothic; font-size: large; padding-top: 70px" onload="setup()">
+    <nav class="navbar" style="position: fixed; left: 0; right: 0; z-index: 1; top: 0;">
+        <a href="DOSE_main.html" class="navbar__logo">DOSE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+        </div>
+        <div class="navbar__menu">
+            <a href="DOSE_main.html" class="navbar__link">Home</a>
+        </div>
+    </nav>
+    <div id="input" style="left: 0px; padding: 2px; display: inline-block;width: 24%;height: 100%;position: fixed;border-right-style: groove;">
+        <h2>Enter the values</h2>
+        <hr>
+        <b>Enter the number of inputs :</b>
+        <input id="noOfInputs" type="number" style="width: -webkit-fill-available;">
+        <input type="button" value="Generate List" onclick="generateList()">
+        <hr>
+        <div id="inputList"></div>
+    </div>
+    <div id="output" style="right: 0px; position: absolute; width: 75%;">
+        <h1>Enter the input and press run</h1>
+    </div>
+</body></html>
